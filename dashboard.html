@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoFlie Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GoFlie Admin Dashboard</h1>
+    
+    <div class="card">
+      <input id="slug" type="text" placeholder="Slug">
+      <input id="url" type="text" placeholder="Original URL">
+      <button id="createBtn">Create</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Slug</th>
+          <th>Original URL</th>
+          <th>Clicks 🔴 Live</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="list"></tbody>
+    </table>
+  </div>
+
+  <script src="app.js?v=999"></script>
+</body>
+</html>

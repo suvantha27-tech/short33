@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* ជួយទប់ទំហំ Column មិនឱ្យរីកធំជ្រុល */
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+  word-break: break-all;      /* បង្ខំឱ្យ URL វែងបត់ចុះបន្ទាត់ក្នុងប្រអប់ */
+  overflow-wrap: break-word;
+}
+
+th {
+  background: #222;
+}
